@@ -149,6 +149,6 @@
   "devDependencies": {
     "gh-pages": "^3.2.3"
   },
-  "homepage": "https://dunnkers.com/performance-planner-assembler",
+  "homepage": "https://dunnkers.com/performance-planner",
   "license": "MIT"
 }

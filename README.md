@@ -1,4 +1,4 @@
-# performance-planner-assembler
+# performance-planner
 
 This tool helps you assembly the correct pages for my _Performance planner_. It is both a journal and a planner and helps you bring structure to your daily routine. 
 
