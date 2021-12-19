@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/performance-planner-assembler/static/css/main.873b2d01.css",
-    "main.js": "/performance-planner-assembler/static/js/main.d3d80895.js",
+    "main.css": "/performance-planner-assembler/static/css/main.1da149be.css",
+    "main.js": "/performance-planner-assembler/static/js/main.ace43ac2.js",
     "static/js/787.1054f474.chunk.js": "/performance-planner-assembler/static/js/787.1054f474.chunk.js",
     "static/media/day-left.pdf": "/performance-planner-assembler/static/media/day-left.1780730dcad3d1a4ee66.pdf",
     "static/media/user-info.pdf": "/performance-planner-assembler/static/media/user-info.2db2bc2fa32fb581b049.pdf",
+    "static/media/week.pdf": "/performance-planner-assembler/static/media/week.403b641acaa8aaf60a8c.pdf",
+    "static/media/affirmations.pdf": "/performance-planner-assembler/static/media/affirmations.c9ebc756a081fcf78b86.pdf",
     "static/media/day-right.pdf": "/performance-planner-assembler/static/media/day-right.0bea83fa731c34abd1d6.pdf",
     "index.html": "/performance-planner-assembler/index.html",
-    "main.873b2d01.css.map": "/performance-planner-assembler/static/css/main.873b2d01.css.map",
-    "main.d3d80895.js.map": "/performance-planner-assembler/static/js/main.d3d80895.js.map",
+    "main.1da149be.css.map": "/performance-planner-assembler/static/css/main.1da149be.css.map",
+    "main.ace43ac2.js.map": "/performance-planner-assembler/static/js/main.ace43ac2.js.map",
     "787.1054f474.chunk.js.map": "/performance-planner-assembler/static/js/787.1054f474.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.873b2d01.css",
-    "static/js/main.d3d80895.js"
+    "static/css/main.1da149be.css",
+    "static/js/main.ace43ac2.js"
   ]
 }
