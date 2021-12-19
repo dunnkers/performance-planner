@@ -8,9 +8,7 @@ function App() {
       <header className="App-header">
         Performance Planner <span style={{color:"#ccc", display: "inline"}}>Assembler</span>
       </header>
-      <content>
-        <JournalMaker />
-      </content>
+      <JournalMaker />
     </div>
   );
 }
