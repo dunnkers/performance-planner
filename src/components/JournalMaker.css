@@ -1,0 +1,10 @@
+
+.Journal-Maker {
+    padding: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Journal-Maker {
+        padding: 10px;
+    }
+}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Row, Col } from 'antd';
 import moment from 'moment';
+import './JournalMaker.css';
 
 import JournalPanel from './JournalPanel';
 import OptionsPanel from './OptionsPanel';
@@ -21,14 +22,15 @@ function JournalMaker() {
   const [isGenerating, setIsGenerating] = useState(true);
 
   return (
-    <Row style={{margin: '50px 0px'}} gutter={32}>
-      <Col span={8}>
+    // style={{margin: '50px 0px'}}
+    <Row className="Journal-Maker">
+      <Col xs={24} sm={24} md={8} lg={8} xl={8} >
         <OptionsPanel
           initialValues={settings}
           onSubmit={setSettings}
           isGenerating={isGenerating} />
       </Col>
-      <Col span={16}>
+      <Col xs={24} sm={24} md={16} lg={16} xl={16}>
         <JournalPanel
           settings={settings}
           setIsGenerating={setIsGenerating} />

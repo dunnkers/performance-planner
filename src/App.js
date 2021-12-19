@@ -20,7 +20,7 @@ function App() {
       <footer className='App-footer'>
         <small>
           © {currentYear}.
-          Built with ♥ by 
+          Built with ♥ by&nbsp;
           <a className="App-link" href="https://jeroenoverschie.nl/">Jeroen Overschie</a>
         </small>
       </footer>

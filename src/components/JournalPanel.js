@@ -1,11 +1,15 @@
 import PDFMerger from 'pdf-merger-js/browser';
 import React, { useEffect, useState } from 'react';
-import { Skeleton } from 'antd';
+import { Skeleton, Spin } from 'antd';
 import userInfoPage from "../journal/user-info.pdf";
 import weekPage from "../journal/week.pdf";
 import dayLeftPage from "../journal/day-left.pdf";
 import dayRightPage from "../journal/day-right.pdf";
 import affirmationsPage from "../journal/affirmations.pdf";
+import { LoadingOutlined } from '@ant-design/icons';
+import downloadIcon from '../download.png';
+
+const antIcon = <LoadingOutlined style={{ fontSize: 24 }} spin />;
 
 function buildWeeklyPages(settings) {
     const pages = [];
@@ -95,19 +99,41 @@ const JournalPanel = ({ settings, setIsGenerating }) => {
         return () => setMergedPdfUrl();
     }, [settings, setMergedPdfUrl, setIsGenerating]);
 
-    return !mergedPdfUrl ? (
-        <Skeleton.Input
-            style={{ width: '100%', maxWidth: 800, height: 1000 }}
-            active={true} />
-    ) : (
-        <iframe
-            height={1000}
-            width='100%'
-            src={`${mergedPdfUrl}`}
-            title='pdf-viewer'
-            style={{ resize: 'both', overflow: 'auto', maxWidth: '800px' }}
-        ></iframe>
-    );
+    // <Skeleton.Input
+//     style={{ width: '100%', maxWidth: 800, height: 1000 }}
+//     active={true} />
+// )
+    return !mergedPdfUrl ? 
+        (
+            <div style={{
+                background: '#525659',
+                width: '100%',
+                height: 1000,
+                maxWidth: '1000px' }}>
+                <Skeleton.Input
+                    active={true}/>
+            </div>
+        ) : 
+        (
+            <div>
+                <iframe
+                    height={1000}
+                    width='100%'
+                    src={`${mergedPdfUrl}`}
+                    title='pdf-viewer'
+                ></iframe>
+                <p style={{textAlign: 'center'}}>
+                    <a className="Planner-Link"
+                        href={mergedPdfUrl}
+                        download="my-performance-planner.pdf">
+                        my-performance-planner.pdf&nbsp;
+                        <img src={downloadIcon}
+                            alt="download"
+                            style={{width: '16px', paddingBottom: '4px'}}/>
+                    </a>
+                </p>
+            </div>
+        );
 };
 
 export default JournalPanel;

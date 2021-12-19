@@ -8,4 +8,4 @@ After assembly, you can download the journal in PDF. Check out the [web app](htt
 
 ## About
 
-This assembly app was built by [Jeroen Overschie](https://jeroenoverschie.nl/) in React.js ✌🏻. The performance planner itself was also built by me, but inspired by the _Passion Planner_. 
+This app and the _Performance planner_ were built by [Jeroen Overschie](https://jeroenoverschie.nl/) in React.js ✌🏻.
