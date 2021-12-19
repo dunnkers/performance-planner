@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import 'antd/dist/antd.css';
 import moment from 'moment';
-import { DatePicker } from 'antd';
+import { DatePicker, Skeleton } from 'antd';
 
 
 import userInfo from "./journal/user-info.pdf";
@@ -36,25 +36,25 @@ const Merger = ({files}) => {
       throw err;
     });
 
-    return () => setMergedPdfUrl({});
+    return () => setMergedPdfUrl();
   }, [files, setMergedPdfUrl]);
 
   return !mergedPdfUrl ? (
-    <>Loading</>
+    <Skeleton.Input style={{ width: 800, height: 1000 }} active={true} />
   ) : (
     <iframe
       height={1000}
-      width={800}
+      width='100%'
       src={`${mergedPdfUrl}`}
       title='pdf-viewer'
-      style={{resize: 'both', overflow: 'auto'}}
+      style={{resize: 'both', overflow: 'auto', maxWidth: '800px'}}
     ></iframe>
   );
 };
 
 function JournalMaker() {
   const now = moment();
-  const later = now.add(2, 'M');
+  const later = now.clone().add(2, 'M');
   const nowToLater = [now, later];
   const [dateRange, setDateRange] = useState(nowToLater);
 
