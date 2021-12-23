@@ -4,7 +4,7 @@ This tool helps you assembly the correct pages for my _Performance planner_. It 
 
 ![performance planner example](./example_screenshot.png)
 
-After assembly, you can download the journal in PDF. Check out the [web app](https://dunnkers.com/performance-planner-assembly).
+After assembly, you can download the journal in PDF. Check out the [web app](https://dunnkers.com/performance-planner).
 
 ## About
 
