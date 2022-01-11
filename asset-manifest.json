@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/performance-planner/static/css/main.9adc444e.css",
-    "main.js": "/performance-planner/static/js/main.ac639b84.js",
+    "main.js": "/performance-planner/static/js/main.aa9bec68.js",
     "static/js/787.1054f474.chunk.js": "/performance-planner/static/js/787.1054f474.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/performance-planner/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/day-left.pdf": "/performance-planner/static/media/day-left.1780730dcad3d1a4ee66.pdf",
     "static/media/user-info.pdf": "/performance-planner/static/media/user-info.f703977fc7f2d3021225.pdf",
     "static/media/week.pdf": "/performance-planner/static/media/week.403b641acaa8aaf60a8c.pdf",
     "static/media/affirmations.pdf": "/performance-planner/static/media/affirmations.c9ebc756a081fcf78b86.pdf",
     "static/media/day-right.pdf": "/performance-planner/static/media/day-right.0bea83fa731c34abd1d6.pdf",
+    "static/media/blank.pdf": "/performance-planner/static/media/blank.68efe961de0712f8ab16.pdf",
     "index.html": "/performance-planner/index.html",
     "main.9adc444e.css.map": "/performance-planner/static/css/main.9adc444e.css.map",
-    "main.ac639b84.js.map": "/performance-planner/static/js/main.ac639b84.js.map",
+    "main.aa9bec68.js.map": "/performance-planner/static/js/main.aa9bec68.js.map",
     "787.1054f474.chunk.js.map": "/performance-planner/static/js/787.1054f474.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9adc444e.css",
-    "static/js/main.ac639b84.js"
+    "static/js/main.aa9bec68.js"
   ]
 }
