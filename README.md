@@ -2,9 +2,11 @@
 
 This tool helps you assembly the correct pages for my _Performance planner_. It is both a journal and a planner and helps you bring structure to your daily routine. 
 
-![performance planner example](./example_screenshot.png)
+[![Performance Planner assembler web app example](./example_webapp.png)](https://dunnkers.com/performance-planner)
 
 After assembly, you can download the journal in PDF. Check out the [web app](https://dunnkers.com/performance-planner).
+
+![Performance Planner by Jeroen Overschie print example](./example_print.jpg)
 
 ## About
 
