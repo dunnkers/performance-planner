@@ -1,4 +1,5 @@
-import { Form, Button, Checkbox, DatePicker } from 'antd';
+import { Form, Button, Checkbox, DatePicker, Alert } from 'antd';
+import { LinkOutlined } from '@ant-design/icons';
 
 const { RangePicker } = DatePicker;
 
@@ -49,6 +50,20 @@ const Demo = ({ initialValues, onSubmit, isGenerating }) => {
           Generate journal 🚀
         </Button>
       </Form.Item>
+      <div style={{marginTop: "30px"}} >
+        <Alert
+          message="About printing the planner 🖨"
+          description={
+            <>
+              <a href="https://github.com/dunnkers/performance-planner#printing-the-planner">
+              Guide on Github <LinkOutlined />
+              </a>
+            </>
+          }
+          type="info"
+          showIcon
+          />
+      </div>
     </Form>
   );
 };
